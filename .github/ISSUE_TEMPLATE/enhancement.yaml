@@ -29,20 +29,21 @@ body:
   - type: textarea
     id: the-why
     attributes:
-      label: Describe the feature/enhancement
+      label: What is the use case?
+      placeholder: Explain the "why" or "use case".
     validations:
       required: true
   - type: textarea
     id: current-image
     attributes:
-      label: How it works now
-      description: Please describe how it works now and include a screenshot of how it looks now.
+      label: Image of how it works now
+      description: Please describe how it works now and include a screenshot if applicable.
       placeholder: If an image is not applicable, please explain why.
     validations:
       required: true
   - type: textarea
     id: image
     attributes:
-      label: Image
+      label: How it should look or work
       description: Please include relevant images.
       placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature. If an image is not applicable, please explain why.
