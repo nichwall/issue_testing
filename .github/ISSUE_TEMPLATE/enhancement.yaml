@@ -8,6 +8,9 @@ body:
       value: "### *Mobile app features should be [requested here](https://github.com/advplyr/audiobookshelf-app/issues/new/choose)*."
   - type: markdown
     attributes:
+      value: ""
+  - type: markdown
+    attributes:
       value: "## Feature Request Description"
   - type: markdown
     attributes:
