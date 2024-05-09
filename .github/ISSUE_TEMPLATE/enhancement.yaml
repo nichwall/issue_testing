@@ -9,6 +9,14 @@ body:
   - type: markdown
     attributes:
       value: "Mobile app features should be requested [here](https://github.com/advplyr/audiobookshelf-app/issues/new/choose)."
+  - type: dropdown
+    id: enhancment-type
+    attributes:
+      label: Type of enhancement
+      options:
+        - Server backend
+        - Web client frontend
+        - Documentation
   - type: textarea
     id: describe
     attributes:
@@ -20,6 +28,6 @@ body:
     attributes:
       label: Image
       description: Please include relevant images.
-      placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature.
+      placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature. If an image is not applicable, please explain why.
     validations:
       required: true
