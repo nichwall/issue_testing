@@ -8,7 +8,7 @@ body:
       value: '## App Feature Request Description'
   - type: markdown
     attributes:
-      value: 'Please first search in both issues & discussions for your enhancement.'
+      value: 'Please first search in both issues & discussions for your enhancement and make sure your app is up to date.'
   - type: textarea
     id: describe
     attributes:
@@ -40,8 +40,7 @@ body:
     id: version
     attributes:
       label: Audiobookshelf App Version
-      description: Please ensure your app is up to date.
-      description: If you are using a 3rd-party app, please reach out to that app maintainer through appropriate channels.
+      description: Please ensure your app is up to date. If you are using a 3rd-party app, please reach out to them directly.
       options:
         - Android App - 0.9.63
         - iOS App - 0.9.63
