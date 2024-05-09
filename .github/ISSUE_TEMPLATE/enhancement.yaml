@@ -42,6 +42,8 @@ body:
       label: Future Implementation (Screenshot)
       description: Please help us visualize by including a doodle or screenshot.
       placeholder: How could this look?
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: "## Current Implementation"
@@ -57,7 +59,5 @@ body:
     id: current-image
     attributes:
       label: Current Implementation (Screenshot)
-      description: What page are you looking at when you thought of this enhancement?
+      description: What page were you looking at when you thought of this enhancement?
       placeholder: If an image is not applicable, please explain why.
-    validations:
-      required: true
