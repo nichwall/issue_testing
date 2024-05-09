@@ -15,7 +15,7 @@ body:
       label: Describe the feature/enhancement
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: image
     attributes:
       label: Image
