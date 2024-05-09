@@ -24,6 +24,8 @@ body:
     id: describe
     attributes:
       label: Describe the feature/enhancement
+      description: Please help us understand what you want.
+      placeholder: What is your vision?
     validations:
       required: true
   - type: textarea
@@ -37,9 +39,9 @@ body:
   - type: textarea
     id: image
     attributes:
-      label: How it should look or work
-      description: Please include relevant images.
-      placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature. If an image is not applicable, please explain why.
+      label: Future Implementation (Screenshot)
+      description: Please help us visualize by including a doodle or screenshot.
+      placeholder: How could this look?
   - type: markdown
     attributes:
       value: "## Current Implementation"
@@ -54,7 +56,7 @@ body:
   - type: textarea
     id: current-image
     attributes:
-      label: Current Implementation (screenshot)
+      label: Current Implementation (Screenshot)
       description: Please describe how it works now and include a screenshot if applicable.
       placeholder: If an image is not applicable, please explain why.
     validations:
