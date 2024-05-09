@@ -27,10 +27,22 @@ body:
     validations:
       required: true
   - type: textarea
+    id: the-why
+    attributes:
+      label: Describe the feature/enhancement
+    validations:
+      required: true
+  - type: textarea
+    id: current-image
+    attributes:
+      label: How it works now
+      description: Please describe how it works now and include a screenshot of how it looks now.
+      placeholder: If an image is not applicable, please explain why.
+    validations:
+      required: true
+  - type: textarea
     id: image
     attributes:
       label: Image
       description: Please include relevant images.
       placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature. If an image is not applicable, please explain why.
-    validations:
-      required: true
