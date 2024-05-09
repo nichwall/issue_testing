@@ -15,7 +15,8 @@ body:
       label: Describe the feature/enhancement
     validations:
       required: true
-  - type: image
+  - type: markdown
     id: image
     attributes:
-      label: Upload an image (optional)
+      label: Please include a relevant image. This could be a mockup, screenshot, or anything else that helps visualize the feature.
+    required: true
