@@ -5,10 +5,10 @@ labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
-      value: "## [Mobile app features should be requested here](https://github.com/advplyr/audiobookshelf-app/issues/new/choose)."
+      value: "### [Mobile app features should be requested here](https://github.com/advplyr/audiobookshelf-app/issues/new/choose)."
   - type: markdown
     attributes:
-      value: "## Please first search in both issues & discussions for your enhancement."
+      value: "### Please first search in both issues & discussions for your enhancement."
   - type: dropdown
     id: enhancment-type
     attributes:
