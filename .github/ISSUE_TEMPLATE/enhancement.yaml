@@ -29,7 +29,8 @@ body:
   - type: textarea
     id: the-why
     attributes:
-      label: What is the use case?
+      label: Why would this be helpful?
+      description: Please help us understand why this would enhance your experience.
       placeholder: Explain the "why" or "use case".
     validations:
       required: true
