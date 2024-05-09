@@ -9,6 +9,9 @@ body:
   - type: markdown
     attributes:
       value: "Please first search in both issues & discussions for your enhancement."
+  - type: markdown
+    attributes:
+      value: "## Feature Request Description"
   - type: dropdown
     id: enhancment-type
     attributes:
