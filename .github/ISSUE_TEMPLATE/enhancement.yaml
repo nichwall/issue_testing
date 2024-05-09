@@ -18,5 +18,7 @@ body:
   - type: markdown
     id: image
     attributes:
-      label: Please include a relevant image. This could be a mockup, screenshot, or anything else that helps visualize the feature.
-    required: true
+      label: Image
+      value: Please include relevant images. This could be a mockup, screenshot, or anything else that helps visualize the feature.
+    validations:
+      required: true
