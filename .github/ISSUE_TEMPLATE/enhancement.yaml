@@ -17,8 +17,8 @@ body:
     attributes:
       label: Type of enhancement
       options:
-        - Server backend
-        - Web client frontend
+        - Server Backend
+        - Web Interface/Frontend
         - Documentation
   - type: textarea
     id: describe
