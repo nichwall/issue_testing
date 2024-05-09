@@ -33,6 +33,12 @@ body:
       placeholder: Explain the "why" or "use case".
     validations:
       required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: How it should look or work
+      description: Please include relevant images.
+      placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature. If an image is not applicable, please explain why.
   - type: markdown
     attributes:
       value: "## Current Implementation"
@@ -44,9 +50,3 @@ body:
       placeholder: If an image is not applicable, please explain why.
     validations:
       required: true
-  - type: textarea
-    id: image
-    attributes:
-      label: How it should look or work
-      description: Please include relevant images.
-      placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature. If an image is not applicable, please explain why.
