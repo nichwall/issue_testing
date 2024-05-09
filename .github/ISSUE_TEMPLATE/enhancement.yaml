@@ -19,6 +19,7 @@ body:
     id: image
     attributes:
       label: Image
-      value: Please include relevant images. This could be a mockup, screenshot, or anything else that helps visualize the feature.
+      description: Please include relevant images.
+      placeholder: This could be a mockup, screenshot, or anything else that helps visualize the feature.
     validations:
       required: true
