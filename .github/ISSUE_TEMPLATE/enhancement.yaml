@@ -15,3 +15,7 @@ body:
       label: Describe the feature/enhancement
     validations:
       required: true
+  - type: file
+    id: image
+    attributes:
+      label: Upload an image (optional)
