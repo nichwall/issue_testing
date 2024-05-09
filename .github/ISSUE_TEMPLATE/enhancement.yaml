@@ -15,7 +15,7 @@ body:
   - type: dropdown
     id: enhancment-type
     attributes:
-      label: Type of enhancement
+      label: Type of Enhancement
       options:
         - Server Backend
         - Web Interface/Frontend
@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: describe
     attributes:
-      label: Describe the feature/enhancement
+      label: Describe the Feature/Enhancement
       description: Please help us understand what you want.
       placeholder: What is your vision?
     validations:
@@ -50,7 +50,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Audiobookshelf version
+      label: Audiobookshelf Server Version
       description: Do not put 'Latest version', please put your current version number here
       placeholder: 'e.g. v1.6.60'
     validations:
