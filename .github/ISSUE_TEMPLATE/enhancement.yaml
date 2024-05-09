@@ -57,7 +57,7 @@ body:
     id: current-image
     attributes:
       label: Current Implementation (Screenshot)
-      description: Please describe how it works now and include a screenshot if applicable.
+      description: What page are you looking at when you thought of this enhancement?
       placeholder: If an image is not applicable, please explain why.
     validations:
       required: true
