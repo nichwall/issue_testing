@@ -44,6 +44,7 @@ body:
     attributes:
       label: Audiobookshelf App Version
       description: Please ensure your app is up to date. *If you are using a 3rd-party app, please reach out to them directly.*
+      multiple: true
       options:
         - Android App - 0.9.63
         - iOS App - 0.9.63
@@ -55,9 +56,31 @@ body:
       label: Phone OS
       description: What kind of phone are you using? If Android, is it stock or a custom system?
       placeholder: Android 14, iOS 17.4, etc
+    validations:
+      required: true
   - type: textarea
     id: phone-model
     attributes:
       label: Phone Model
       description: What kind of phone do you have?
       placeholder: Pixel 6, iPhone 14, Samusung Galaxy s23, etc
+    validations:
+      required: true
+  - type: dropdown
+    id: install-source
+    attributes:
+      label: How did you install the ABS app?
+      multiple: true
+      options:
+        - Google Play Store
+        - Testflight
+        - SideStore
+        - Other (List in "Additional Notes")
+    validations:
+      required: true
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Anything else you want to add?
+      placeholder: 'e.g. I have tried X, Y, and Z.'
