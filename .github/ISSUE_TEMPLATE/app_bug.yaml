@@ -32,8 +32,8 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce the issue
-      description: Please help us understand how we can find the issue.
-      placeholder: '1. Tap on [button] and...'
+      description: Please help us understand how we can reliably see the issue.
+      placeholder: '1. Go to the library page of a Podcast library and...'
     validations:
       required: true
   - type: markdown
