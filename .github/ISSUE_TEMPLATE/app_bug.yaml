@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
+      label: Describe What Happened
       description: Please help us understand the problem.
       placeholder: Tell us what you see! Include a screenshot or video if applicable.
     validations:
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to reproduce the issue
+      label: Steps to Reproduce the Issue
       description: Please help us understand how we can reliably see the issue.
       placeholder: '1. Go to the library page of a Podcast library and...'
     validations:
@@ -39,17 +39,6 @@ body:
   - type: markdown
     attributes:
       value: '## App Environment'
-  - type: dropdown
-    id: app-version
-    attributes:
-      label: Audiobookshelf App Version
-      description: Please ensure your app is up to date. *If you are using a 3rd-party app, please reach out to them directly.*
-      multiple: true
-      options:
-        - Android App - 0.9.63
-        - iOS App - 0.9.63
-    validations:
-      required: true
   - type: input
     id: phone-os
     attributes:
@@ -67,9 +56,20 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: app-version
+    attributes:
+      label: Audiobookshelf App Version
+      description: Please ensure your app is up to date. *If you are using a 3rd-party app, please reach out to them directly.*
+      multiple: true
+      options:
+        - Android App - 0.9.63
+        - iOS App - 0.9.63
+    validations:
+      required: true
+  - type: dropdown
     id: install-source
     attributes:
-      label: How did you install the ABS app?
+      label: Installation Source
       multiple: true
       options:
         - Google Play Store
