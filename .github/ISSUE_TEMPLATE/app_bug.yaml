@@ -21,19 +21,19 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-was-expected
-    attributes:
-      label: What did you expect to happen?
-      description: Please help us understand why that should happen.
-      placeholder: Please help us visualize by including a doodle or screenshot.
-    validations:
-      required: true
-  - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce the Issue
       description: Please help us understand how we can reliably reproduce the issue.
       placeholder: '1. Go to the library page of a Podcast library and...'
+    validations:
+      required: true
+  - type: textarea
+    id: what-was-expected
+    attributes:
+      label: What did you expect to happen?
+      description: Please help us understand why that should happen.
+      placeholder: Please help us visualize by including a doodle or screenshot.
     validations:
       required: true
   - type: markdown
