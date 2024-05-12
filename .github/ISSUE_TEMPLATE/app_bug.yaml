@@ -25,7 +25,7 @@ body:
     attributes:
       label: What did you expect to happen?
       description: Please help us understand why that should happen.
-      placeholder: Tell us what you expected to see! Please help us visualize by including a doodle or screenshot.
+      placeholder: Please help us visualize by including a doodle or screenshot.
     validations:
       required: true
   - type: textarea
@@ -55,7 +55,7 @@ body:
     attributes:
       label: Phone OS
       description: What kind of phone are you using? If Android, is it stock or a custom system?
-      placeholder: Android 14, iOS 17.4, etc
+      placeholder: e.g. Android 14, iOS 17.4, etc
     validations:
       required: true
   - type: textarea
@@ -63,7 +63,7 @@ body:
     attributes:
       label: Phone Model
       description: What kind of phone do you have?
-      placeholder: Pixel 6, iPhone 14, Samusung Galaxy s23, etc
+      placeholder: e.g. Pixel 6, iPhone 14, Samusung Galaxy s23, etc
     validations:
       required: true
   - type: dropdown
