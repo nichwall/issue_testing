@@ -32,18 +32,18 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce the Issue
-      description: Please help us understand how we can reliably see the issue.
+      description: Please help us understand how we can reliably reproduce the issue.
       placeholder: '1. Go to the library page of a Podcast library and...'
     validations:
       required: true
   - type: markdown
     attributes:
-      value: '## App Environment'
+      value: '## Mobile Environment'
   - type: input
     id: phone-os
     attributes:
       label: Phone OS
-      description: What kind of phone are you using? If Android, is it stock or a custom system?
+      description: What operating system? If Android, is it stock or a custom system?
       placeholder: e.g. Android 14, iOS 17.4, etc
     validations:
       required: true
@@ -51,7 +51,7 @@ body:
     id: phone-model
     attributes:
       label: Phone Model
-      description: What kind of phone do you have?
+      description: What kind of phone are you using?
       placeholder: e.g. Pixel 6, iPhone 14, Samusung Galaxy s23, etc
     validations:
       required: true
