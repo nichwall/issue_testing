@@ -1,4 +1,4 @@
-name: 🐞 Bug Report
+name: 🐞 ABS App Bug Report
 description: File a bug/issue and help us improve the Audiobookshelf apps
 title: '[Bug]: '
 labels: ['bug', 'triage']
@@ -9,18 +9,23 @@ body:
   - type: markdown
     attributes:
       value: 'Join the [discord server](https://discord.gg/HQgCbd6E75) for questions or if you are not sure about a bug.'
+  - type: markdown
+    attributes:
+      value: '## App Bug Description'
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      placeholder: Tell us what you see!
+      description: Please help us understand the problem.
+      placeholder: Tell us what you see! Include a screenshot or video if applicable.
     validations:
       required: true
   - type: textarea
     id: what-was-expected
     attributes:
       label: What did you expect to happen?
-      placeholder: Tell us what you expected to see! Be as descriptive as you can and include screenshots if applicable.
+      description: Please help us understand why that should happen.
+      placeholder: Tell us what you expected to see! Please help us visualize by including a doodle or screenshot.
     validations:
       required: true
   - type: textarea
@@ -32,7 +37,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: '## Install Environment'
+      value: '## App Environment'
   - type: input
     id: version
     attributes:
@@ -42,48 +47,15 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: install
+    id: app-version
     attributes:
-      label: How are you running audiobookshelf?
+      label: Audiobookshelf App Version
+      description: Please ensure your app is up to date. *If you are using a 3rd-party app, please reach out to them directly.*
       options:
-        - Docker
-        - Debian/PPA
-        - Windows Tray App
-        - Built from source
-        - Other (list in "Additional Notes" box)
+        - Android App - 0.9.63
+        - iOS App - 0.9.63
     validations:
       required: true
-  - type: dropdown
-    id: server-os
-    attributes:
-      label: What OS is your Audiobookshelf server hosted from?
-      options:
-        - Windows
-        - macOS
-        - Linux
-        - Other (list in "Additional Notes" box)
-    validations:
-      required: true
-  - type: dropdown
-    id: desktop-browsers
-    attributes:
-      label: If the issue is being seen in the UI, what browsers are you seeing the problem on?
-      options:
-        - Chrome
-        - Firefox
-        - Safari
-        - Edge
-        - Firefox for Android
-        - Chrome for Android
-        - Safari on iOS
-        - Other (list in "Additional Notes" box)
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs
-      description: Please include any relevant logs here. This field is automatically formatted into code, so you do not need to include any backticks.
-      placeholder: Paste logs here
-      render: shell
   - type: textarea
     id: additional-notes
     attributes:
