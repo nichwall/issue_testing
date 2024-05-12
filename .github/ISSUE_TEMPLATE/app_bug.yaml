@@ -50,8 +50,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: additional-notes
+    id: phone-os
     attributes:
-      label: Additional Notes
-      description: Anything else you want to add?
-      placeholder: 'e.g. I have tried X, Y, and Z.'
+      label: Phone OS
+      description: What kind of phone are you using? If Android, is it stock or a custom system?
+      placeholder: Android 14, iOS 17.4, etc
+  - type: textarea
+    id: phone-model
+    attributes:
+      label: Phone Model
+      description: What kind of phone do you have?
+      placeholder: Pixel 6, iPhone 14, Samusung Galaxy s23, etc
