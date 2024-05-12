@@ -32,20 +32,13 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce the issue
-      value: '1. '
+      description: Please help us understand how we can find the issue.
+      placeholder: '1. Tap on [button] and...'
     validations:
       required: true
   - type: markdown
     attributes:
       value: '## App Environment'
-  - type: input
-    id: version
-    attributes:
-      label: Audiobookshelf version
-      description: Do not put 'Latest version', please put the actual version here
-      placeholder: 'e.g. v1.6.60'
-    validations:
-      required: true
   - type: dropdown
     id: app-version
     attributes:
