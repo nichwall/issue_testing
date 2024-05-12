@@ -39,14 +39,6 @@ body:
   - type: markdown
     attributes:
       value: '## App Environment'
-  - type: input
-    id: version
-    attributes:
-      label: Audiobookshelf Server Version
-      description: Do not put 'Latest version', please put the actual version here.
-      placeholder: 'e.g. v1.6.60'
-    validations:
-      required: true
   - type: dropdown
     id: app-version
     attributes:
@@ -58,7 +50,7 @@ body:
         - iOS App - 0.9.63
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: phone-os
     attributes:
       label: Phone OS
@@ -66,7 +58,7 @@ body:
       placeholder: e.g. Android 14, iOS 17.4, etc
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: phone-model
     attributes:
       label: Phone Model
