@@ -5,13 +5,13 @@ labels: ['bug', 'triage']
 body:
   - type: markdown
     attributes:
+      value: '## App Bug Description'
+  - type: markdown
+    attributes:
       value: 'Thank you for filing a bug report! 🐛'
   - type: markdown
     attributes:
       value: 'Join the [discord server](https://discord.gg/HQgCbd6E75) for questions or if you are not sure about a bug.'
-  - type: markdown
-    attributes:
-      value: '## App Bug Description'
   - type: textarea
     id: what-happened
     attributes:
