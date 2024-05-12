@@ -32,7 +32,7 @@ body:
     id: what-was-expected
     attributes:
       label: What was Expected?
-      description: Please help us understand why that should happen.
+      description: Please help us understand what should have happened.
       placeholder: Please help us visualize by including a doodle or screenshot.
     validations:
       required: true
