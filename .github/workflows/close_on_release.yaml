@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Close issues marked as fixed upon a release.
-        uses: nichwall/fixed-pending-release@f51cf4dea2b6b4403e748c32a8113bec453bd21f
+        uses: nichwall/fixed-pending-release@c788dd6c681ac419af47aee4a798fa70a001947e
         with:
           label: awaiting-release
           applyToAll: true
-          message: ":tada: This issue has now been fixed and is now available in the latest release! Fixed in [${releaseTag}](${releaseUrl}) :tada:"
+          isExternalRelease: false
