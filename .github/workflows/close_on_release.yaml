@@ -12,4 +12,4 @@ jobs:
         with:
           label: awaiting-release
           applyToAll: true
-          isExternalRelease: false
+          message: This issue has now been fixed and is available in [${releaseTag}](${releaseUrl}).
