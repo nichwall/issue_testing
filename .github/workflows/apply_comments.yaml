@@ -21,8 +21,6 @@ jobs:
             bandwidth or access to the required test hardware.
 
             This issue is available for anyone to work on.
-
-            :sparkles: Thank you for your contribution! :sparkles:
   config-issue:
     if: github.event.label.name == 'config-issue'
     runs-on: ubuntu-latest
@@ -36,22 +34,12 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           BODY: >
-            This issue is being closed because it is appears to be a problem
-            with your setup (such as the network, reverse proxy, or VPN) and
-            not a problem with ABS.
-            ABS is successfully being used by a number of people with a variety
-            of setups (LAN only, VPN, accessible over https on the internet),
-            so it is likely that the issue is with your setup.
+            After reviewing this issue, this appears to be a problem with your setup
+            and not Audiobookshelf.
+            This issue is being closed to keep the issue tracker focused on Audiobookshelf
+            itself.
 
-            To get more support with your issue, please reach out on the ABS
-            Discord for community support.
-            If you resolve the issue, please return here and post your solution
-            or other steps you took to figure out what the problem was to help
-            other users who encounter similar issues.
-
-            If your are able to show that this is a problem with ABS after
-            discussing with the community, please provide more information
-            about the issue and we can reopen it.
+            Please reach out on the Audiobookshelf Discord for community support.
 
             Some common search terms to help you find the solution to your problem:
               - Reverse proxy
@@ -61,3 +49,7 @@ jobs:
               - `localhost` versus IP address
               - hairpin NAT
               - VPN
+
+            After you have followed these steps, please post the solution or steps you followed
+            to fix the problem to help others in the future, or show that it is a problem
+            with Audiobookshelf so we can reopen the issue.
