@@ -1,22 +1,63 @@
-name: Automatically apply comment
+name: Apply comments by label
 on:
   issues:
     types:
       - labeled
 jobs:
-  add-comment:
+  help-wanted:
     if: github.event.label.name == 'help wanted'
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
-      - name: Add comment
+      - name: Help wanted comment
         run: gh issue comment "$NUMBER" --body "$BODY"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           BODY: >
+            This issue is not able to be completed due to limited
+            bandwidth or access to the required test hardware.
+
             This issue is available for anyone to work on.
-            **Make sure to reference this issue in your pull request.**
+
             :sparkles: Thank you for your contribution! :sparkles:
+  config-issue:
+    if: github.event.label.name == 'config-issue'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Config issue comment
+        run: gh issue close "$NUMBER" --reason "not planned" --comment "$BODY"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          BODY: >
+            This issue is being closed because it is appears to be a problem
+            with your setup (such as the network, reverse proxy, or VPN) and
+            not a problem with ABS.
+            ABS is successfully being used by a number of people with a variety
+            of setups (LAN only, VPN, accessible over https on the internet),
+            so it is likely that the issue is with your setup.
+
+            To get more support with your issue, please reach out on the ABS
+            Discord for community support.
+            If you resolve the issue, please return here and post your solution
+            or other steps you took to figure out what the problem was to help
+            other users who encounter similar issues.
+
+            If your are able to show that this is a problem with ABS after
+            discussing with the community, please provide more information
+            about the issue and we can reopen it.
+
+            Some common search terms to help you find the solution to your problem:
+              - Reverse proxy
+              - Enabling websockets
+              - SSL (https vs http)
+              - Configuring a static IP
+              - `localhost` versus IP address
+              - hairpin NAT
+              - VPN
