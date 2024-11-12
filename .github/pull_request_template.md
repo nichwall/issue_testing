@@ -9,13 +9,11 @@
 -->
 
 ## Briefly summarize your PR
-
 <!--
 Please provide a brief summary of what your PR attempts to achieve. Include a reference to the issue this PR addresses.
 -->
 
 ## Description
-
 <!--
 Describe your solution in more depth.
 How does it work? Why is it needed? Why is this the best solution?
@@ -23,13 +21,11 @@ Does it solve a problem that affects multiple users or is this an edge case for 
 -->
 
 ## How have you tested this?
-
 <!--
-Please describe in detail how you tested your changes.
+Please describe in detail with reproducible steps how you tested your changes.
 -->
 
 ## Screenshots
-
 <!--
 If your PR includes any changes to the web client, please include screenshots or a video from before and after your changes.
 -->
