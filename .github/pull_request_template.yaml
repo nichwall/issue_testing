@@ -1,5 +1,6 @@
 name: Pull Request Template
 description: Explain the PR
+title: "PR: "
 body:
   - type: textarea
     id: summary
