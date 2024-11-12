@@ -1,11 +1,35 @@
 <!--
-Ensure your title is short, descriptive, and in the imperative mood (Fix X, Change Y, instead of Fixed X, Changed Y).
-For a good inspiration of what to write in commit messages and PRs please review https://chris.beams.io/posts/git-commit/ and our documentation.
+     For Work In Progress Pull Requests, please use the Draft PR feature,
+     see https://github.blog/2019-02-14-introducing-draft-pull-requests/ for further details.
+
+     If you do not follow this template, the PR may be closed without review.
+
+     For a timely review/response, please avoid force-pushing additional
+     commits if your PR already received reviews or comments.
 -->
 
-**Changes**
-<!-- Describe your changes here in 1-5 sentences. -->
+## Briefly summarize your PR
 
-**Issues**
-<!-- Tag any issues that this PR solves here.
-ex. Fixes # -->
+<!--
+Please provide a brief summary of what your PR attempts to achieve. Include a reference to the issue this PR addresses.
+-->
+
+## Description
+
+<!--
+Describe your solution in more depth.
+How does it work? Why is it needed? Why is this the best solution?
+Does it solve a problem that affects multiple users or is this an edge case for your setup?
+-->
+
+## How have you tested this?
+
+<!--
+Please describe in detail how you tested your changes.
+-->
+
+## Screenshots
+
+<!--
+If your PR includes any changes to the web client, please include screenshots or a video from before and after your changes.
+-->
