@@ -13,7 +13,7 @@ Please provide a brief summary of what your PR attempts to achieve. Include a re
 ## In-depth Description
 <!--
 Describe your solution in more depth.
-How does it work? Why is it needed? Why is this the best solution?
+How does it work? Why is this the best solution?
 Does it solve a problem that affects multiple users or is this an edge case for your setup?
 -->
 
