@@ -8,12 +8,12 @@
      commits if your PR already received reviews or comments.
 -->
 
-## Briefly summarize your PR
+## Brief summary
 <!--
 Please provide a brief summary of what your PR attempts to achieve. Include a reference to the issue this PR addresses.
 -->
 
-## Description
+## In-depth Description
 <!--
 Describe your solution in more depth.
 How does it work? Why is it needed? Why is this the best solution?
@@ -27,5 +27,5 @@ Please describe in detail with reproducible steps how you tested your changes.
 
 ## Screenshots
 <!--
-If your PR includes any changes to the web client, please include screenshots or a video from before and after your changes.
+If your PR includes any changes to the web client, please include screenshots or a short video from before and after your changes.
 -->
