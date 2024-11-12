@@ -3,9 +3,6 @@
      see https://github.blog/2019-02-14-introducing-draft-pull-requests/ for further details.
 
      If you do not follow this template, the PR may be closed without review.
-
-     For a timely review/response, please avoid force-pushing additional
-     commits if your PR already received reviews or comments.
 -->
 
 ## Brief summary
