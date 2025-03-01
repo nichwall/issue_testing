@@ -44,7 +44,7 @@ body:
     attributes:
       label: Phone Model
       description: What kind of phone are you using?
-      placeholder: e.g. Pixel 6, iPhone 14, Samusung Galaxy s23, etc
+      placeholder: e.g. Pixel 6, iPhone 14, Samsung Galaxy s23, etc
     validations:
       required: true
   - type: input
