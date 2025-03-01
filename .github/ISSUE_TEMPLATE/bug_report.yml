@@ -18,8 +18,8 @@ body:
       label: I have verified that the [bug is not already awaiting release](https://github.com/advplyr/audiobookshelf-app/issues?q=is%3Aissue%20label%3A%22awaiting%20release%22)
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: textarea
@@ -72,10 +72,10 @@ body:
       description: Please ensure your app is up to date. *If you are using a 3rd-party app, please reach out to them directly.*
       multiple: true
       options:
-        - Android App - 0.9.79
-        - iOS App - 0.9.79
-        - Android App - 0.9.78
-        - iOS App - 0.9.78
+        - "Android App - 0.9.79"
+        - "iOS App - 0.9.79"
+        - "Android App - 0.9.78"
+        - "iOS App - 0.9.78"
     validations:
       required: true
   - type: dropdown
@@ -84,10 +84,10 @@ body:
       label: Installation Source
       multiple: true
       options:
-        - Google Play Store
-        - Testflight
-        - SideStore
-        - Other (List in "Additional Notes")
+        - "Google Play Store"
+        - "Testflight"
+        - "SideStore"
+        - "Other (List in 'Additional Notes')"
     validations:
       required: true
   - type: textarea
